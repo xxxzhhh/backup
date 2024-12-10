@@ -11,3 +11,15 @@ create table users(
 ) ;
 
 直接进行git clone就行
+
+代码说明：
+
+login:负责登录（页面和逻辑）
+
+register1:负责注册（页面和逻辑）
+
+databasemanager:
+1. 负责数据库相关的操作
+2. 用户注册和用户登录功能全在这里
+
+
