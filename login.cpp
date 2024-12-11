@@ -8,6 +8,9 @@ login::login(DatabaseManager *dbManager, QWidget *parent)
     , dbManager(dbManager)  // 使用共享的 DatabaseManager 实例
 {
     ui->setupUi(this);
+
+    this->setWindowTitle("backup -- login");
+
     // 打开数据库
     if (!dbManager->openDatabase()) {
         QMessageBox::critical(this, "Error", "Failed to connect to database");
@@ -34,6 +37,12 @@ void login::on_login_btn_clicked()
     if (dbManager->authenticateUser(username, password, errorMessage)) {
         QMessageBox::information(this, "Login", "Login successful");
         // 这里可以进一步进入应用程序的主界面
+        // 创建主窗口并显示
+        MainWindow *mainWindow = new MainWindow();
+        mainWindow->show();
+
+        // 关闭登录窗口
+        this->close();
     } else {
         // 登录失败，根据不同的错误信息返回不同的提示
         QMessageBox::warning(this, "Login", errorMessage);

@@ -1,6 +1,5 @@
-/home/qs/backup_v1/build/Desktop_Qt_6_2_13_GCC_64bit-Debug/backup_v1_autogen/EWIEGA46WW/moc_login.cpp: /home/qs/backup_v1/login.h \
+/home/qs/backup_v1/build/Desktop_Qt_6_2_13_GCC_64bit-Debug/backup_v1_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/qs/backup_v1/mainwindow.h \
   /home/qs/backup_v1/build/Desktop_Qt_6_2_13_GCC_64bit-Debug/backup_v1_autogen/moc_predefs.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/QString \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qalgorithms.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qanystringview.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qarraydata.h \
@@ -21,14 +20,11 @@
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qcontainerfwd.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qcontainerinfo.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qcontiguouscache.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qdatastream.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qdebug.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qflags.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qgenericatomic.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qglobal.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qhash.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qhashfunctions.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qiodevicebase.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qiterable.h \
@@ -36,7 +32,6 @@
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qline.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qlist.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qlogging.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qmap.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qmargins.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qmath.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qmetacontainer.h \
@@ -54,15 +49,12 @@
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qrefcount.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qscopedpointer.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qscopeguard.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qset.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qshareddata.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qshareddata_impl.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qsharedpointer.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qsharedpointer_impl.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qsize.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qstring.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qstringconverter.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qstringlist.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qstringliteral.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qstringmatcher.h \
@@ -72,11 +64,9 @@
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qsystemdetection.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qtaggedpointer.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qtcore-config.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qtextstream.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qtmetamacros.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qtypeinfo.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qvariant.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtCore/qversiontagging.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtGui/qbitmap.h \
@@ -100,14 +90,6 @@
   /home/qs/Qt/6.2.13/gcc_64/include/QtGui/qtguiglobal.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtGui/qtransform.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/QSqlDatabase \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/QSqlError \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/QSqlQuery \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/qsqldatabase.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/qsqlerror.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/qsqlquery.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/qtsql-config.h \
-  /home/qs/Qt/6.2.13/gcc_64/include/QtSql/qtsqlglobal.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtWidgets/QDialog \
   /home/qs/Qt/6.2.13/gcc_64/include/QtWidgets/QMessageBox \
   /home/qs/Qt/6.2.13/gcc_64/include/QtWidgets/qdialog.h \
@@ -116,9 +98,6 @@
   /home/qs/Qt/6.2.13/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/qs/Qt/6.2.13/gcc_64/include/QtWidgets/qwidget.h \
-  /home/qs/backup_v1/databasemanager.h \
-  /home/qs/backup_v1/mainwindow.h \
-  /home/qs/backup_v1/register1.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -300,7 +279,6 @@
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -339,7 +317,6 @@
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
@@ -352,19 +329,15 @@
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \

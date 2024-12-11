@@ -89,6 +89,14 @@ build CMakeFiles/backup_v1.dir/databasemanager.cpp.o: CXX_COMPILER__backup_v1_un
   OBJECT_DIR = CMakeFiles/backup_v1.dir
   OBJECT_FILE_DIR = CMakeFiles/backup_v1.dir
 
+build CMakeFiles/backup_v1.dir/mainwindow.cpp.o: CXX_COMPILER__backup_v1_unscanned_Debug /home/qs/backup_v1/mainwindow.cpp || cmake_object_order_depends_target_backup_v1
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/backup_v1.dir/mainwindow.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/qs/backup_v1/build/Desktop_Qt_6_2_13_GCC_64bit-Debug/backup_v1_autogen/include -isystem /home/qs/Qt/6.2.13/gcc_64/include/QtCore -isystem /home/qs/Qt/6.2.13/gcc_64/include -isystem /home/qs/Qt/6.2.13/gcc_64/mkspecs/linux-g++ -isystem /home/qs/Qt/6.2.13/gcc_64/include/QtWidgets -isystem /home/qs/Qt/6.2.13/gcc_64/include/QtGui -isystem /home/qs/Qt/6.2.13/gcc_64/include/QtSql
+  OBJECT_DIR = CMakeFiles/backup_v1.dir
+  OBJECT_FILE_DIR = CMakeFiles/backup_v1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target backup_v1
@@ -97,7 +105,7 @@ build CMakeFiles/backup_v1.dir/databasemanager.cpp.o: CXX_COMPILER__backup_v1_un
 #############################################
 # Link the executable backup_v1
 
-build backup_v1: CXX_EXECUTABLE_LINKER__backup_v1_Debug CMakeFiles/backup_v1.dir/backup_v1_autogen/mocs_compilation.cpp.o CMakeFiles/backup_v1.dir/main.cpp.o CMakeFiles/backup_v1.dir/login.cpp.o CMakeFiles/backup_v1.dir/register1.cpp.o CMakeFiles/backup_v1.dir/databasemanager.cpp.o | /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Widgets.so.6.2.13 /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Sql.so.6.2.13 /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Gui.so.6.2.13 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Core.so.6.2.13 || backup_v1_autogen backup_v1_autogen_timestamp_deps
+build backup_v1: CXX_EXECUTABLE_LINKER__backup_v1_Debug CMakeFiles/backup_v1.dir/backup_v1_autogen/mocs_compilation.cpp.o CMakeFiles/backup_v1.dir/main.cpp.o CMakeFiles/backup_v1.dir/login.cpp.o CMakeFiles/backup_v1.dir/register1.cpp.o CMakeFiles/backup_v1.dir/databasemanager.cpp.o CMakeFiles/backup_v1.dir/mainwindow.cpp.o | /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Widgets.so.6.2.13 /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Sql.so.6.2.13 /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Gui.so.6.2.13 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Core.so.6.2.13 || backup_v1_autogen backup_v1_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/qs/Qt/6.2.13/gcc_64/lib:  /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Widgets.so.6.2.13  /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Sql.so.6.2.13  /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Gui.so.6.2.13  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/qs/Qt/6.2.13/gcc_64/lib/libQt6Core.so.6.2.13
   OBJECT_DIR = CMakeFiles/backup_v1.dir
@@ -182,7 +190,7 @@ build backup_v1_autogen_timestamp_deps: phony
 #############################################
 # Utility command for backup_v1_autogen
 
-build backup_v1_autogen: phony CMakeFiles/backup_v1_autogen backup_v1_autogen/include/ui_login.h backup_v1_autogen/include/ui_register1.h backup_v1_autogen/timestamp backup_v1_autogen/mocs_compilation.cpp backup_v1_autogen_timestamp_deps
+build backup_v1_autogen: phony CMakeFiles/backup_v1_autogen backup_v1_autogen/include/ui_login.h backup_v1_autogen/include/ui_register1.h backup_v1_autogen/include/ui_mainwindow.h backup_v1_autogen/timestamp backup_v1_autogen/mocs_compilation.cpp backup_v1_autogen_timestamp_deps
 
 
 #############################################
@@ -199,7 +207,7 @@ build backup_v1_autogen/timestamp backup_v1_autogen/mocs_compilation.cpp | ${cma
 #############################################
 # Phony custom command for CMakeFiles/backup_v1_autogen
 
-build CMakeFiles/backup_v1_autogen backup_v1_autogen/include/ui_login.h backup_v1_autogen/include/ui_register1.h | ${cmake_ninja_workdir}CMakeFiles/backup_v1_autogen ${cmake_ninja_workdir}backup_v1_autogen/include/ui_login.h ${cmake_ninja_workdir}backup_v1_autogen/include/ui_register1.h: phony backup_v1_autogen/timestamp || backup_v1_autogen_timestamp_deps
+build CMakeFiles/backup_v1_autogen backup_v1_autogen/include/ui_login.h backup_v1_autogen/include/ui_register1.h backup_v1_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/backup_v1_autogen ${cmake_ninja_workdir}backup_v1_autogen/include/ui_login.h ${cmake_ninja_workdir}backup_v1_autogen/include/ui_register1.h ${cmake_ninja_workdir}backup_v1_autogen/include/ui_mainwindow.h: phony backup_v1_autogen/timestamp || backup_v1_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QDialog" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>30</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            background-color: #ecf0f1;
+            padding: 10px;
+            border: 2px solid #2980b9;
+            border-radius: 8px;
+            text-align: center;
+        }</string>
+   </property>
+   <property name="text">
+    <string>backup pack</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="wel">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>80</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+            font-size: 18px;
+            color: #16a085;
+            margin: 10px 0;
+            text-align: center;
+        }</string>
+   </property>
+   <property name="text">
+    <string>欢迎使用backup pack文件备份工具</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="wel1">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>130</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+            font-size: 14px;
+            color: #e74c3c;
+            font-style: italic;
+            margin: 5px 0;
+        }</string>
+   </property>
+   <property name="text">
+    <string>请选择您的操作：</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>170</y>
+     <width>251</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="backup_btn">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font-size: 16px;             /* 字体大小 */
+    font-weight: bold;           /* 加粗字体 */
+    color: #ffffff;              /* 字体颜色 */
+    background-color: #3498db;   /* 按钮背景颜色 (蓝色) */
+    border: 2px solid #2980b9;   /* 边框颜色 */
+    border-radius: 10px;         /* 圆角边框 */
+    padding: 10px 20px;          /* 内边距 */
+}
+
+QPushButton#loginButton:hover {
+    background-color: #2980b9;   /* 鼠标悬停背景颜色 */
+}
+
+QPushButton#loginButton:pressed {
+    background-color: #1c6ea4;   /* 按下背景颜色 */
+}</string>
+      </property>
+      <property name="text">
+       <string>文件备份</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="restore_btn">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font-size: 16px;             /* 字体大小 */
+    font-weight: bold;           /* 加粗字体 */
+    color: #ffffff;              /* 字体颜色 */
+    background-color: #2ecc71;   /* 按钮背景颜色 (绿色) */
+    border: 2px solid #27ae60;   /* 边框颜色 */
+    border-radius: 10px;         /* 圆角边框 */
+    padding: 10px 20px;          /* 内边距 */
+}
+
+QPushButton#registerButton:hover {
+    background-color: #27ae60;   /* 鼠标悬停背景颜色 */
+}
+
+QPushButton#registerButton:pressed {
+    background-color: #1e8449;   /* 按下背景颜色 */
+}</string>
+      </property>
+      <property name="text">
+       <string>备份文件还原</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

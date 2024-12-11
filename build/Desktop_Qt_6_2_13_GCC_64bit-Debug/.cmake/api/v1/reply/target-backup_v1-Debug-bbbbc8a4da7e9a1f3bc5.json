@@ -46,7 +46,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
@@ -70,13 +70,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 63,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 46,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
@@ -87,45 +93,39 @@
 			},
 			{
 				"file" : 4,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"command" : 8,
 				"file" : 4,
 				"line" : 157,
-				"parent" : 8
+				"parent" : 9
 			},
 			{
 				"file" : 3,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"command" : 7,
 				"file" : 3,
 				"line" : 50,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"file" : 2,
-				"parent" : 11
+				"parent" : 12
 			},
 			{
 				"command" : 6,
 				"file" : 2,
 				"line" : 61,
-				"parent" : 12
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 538,
-				"parent" : 2
+				"parent" : 13
 			},
 			{
 				"command" : 7,
 				"file" : 3,
 				"line" : 40,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"file" : 11,
@@ -200,6 +200,12 @@
 				"file" : 5,
 				"line" : 710,
 				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 538,
+				"parent" : 2
 			}
 		]
 	},
@@ -212,19 +218,23 @@
 					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 30,
 					"fragment" : "-fPIC"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 14,
+					"backtrace" : 30,
 					"define" : "QT_CORE_LIB"
 				},
 				{
 					"backtrace" : 6,
 					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_SQL_LIB"
 				},
 				{
 					"backtrace" : 6,
@@ -238,17 +248,17 @@
 					"path" : "/home/qs/backup_v1/build/Desktop_Qt_6_2_13_GCC_64bit-Debug/backup_v1_autogen/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 30,
 					"isSystem" : true,
 					"path" : "/home/qs/Qt/6.2.13/gcc_64/include/QtCore"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 30,
 					"isSystem" : true,
 					"path" : "/home/qs/Qt/6.2.13/gcc_64/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 30,
 					"isSystem" : true,
 					"path" : "/home/qs/Qt/6.2.13/gcc_64/mkspecs/linux-g++"
 				},
@@ -261,6 +271,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/home/qs/Qt/6.2.13/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/qs/Qt/6.2.13/gcc_64/include/QtSql"
 				}
 			],
 			"language" : "CXX",
@@ -268,8 +283,8 @@
 			{
 				"backtraces" : 
 				[
-					14,
-					14
+					30,
+					30
 				],
 				"standard" : "17"
 			},
@@ -277,7 +292,10 @@
 			[
 				0,
 				1,
-				2
+				3,
+				6,
+				9,
+				11
 			]
 		}
 	],
@@ -328,13 +346,13 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
-				"fragment" : "/home/qs/Qt/6.2.13/gcc_64/lib/libQt6Gui.so.6.2.13",
+				"backtrace" : 7,
+				"fragment" : "/home/qs/Qt/6.2.13/gcc_64/lib/libQt6Sql.so.6.2.13",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 14,
-				"fragment" : "/home/qs/Qt/6.2.13/gcc_64/lib/libQt6Core.so.6.2.13",
+				"fragment" : "/home/qs/Qt/6.2.13/gcc_64/lib/libQt6Gui.so.6.2.13",
 				"role" : "libraries"
 			},
 			{
@@ -345,6 +363,11 @@
 			{
 				"backtrace" : 29,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/home/qs/Qt/6.2.13/gcc_64/lib/libQt6Core.so.6.2.13",
 				"role" : "libraries"
 			}
 		],
@@ -365,15 +388,23 @@
 			[
 				0,
 				1,
-				2
+				3,
+				6,
+				9,
+				11
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3,
-				5
+				2,
+				5,
+				8,
+				10,
+				13,
+				14,
+				15
 			]
 		},
 		{
@@ -381,14 +412,16 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7,
+				12,
+				16
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				17
 			]
 		}
 	],
@@ -409,8 +442,45 @@
 		},
 		{
 			"backtrace" : 4,
+			"path" : "login.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "mainwindow.cpp",
+			"path" : "login.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "login.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "register1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "register1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "register1.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "databasemanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "databasemanager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -420,8 +490,26 @@
 		},
 		{
 			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
 			"path" : "mainwindow.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_2_13_GCC_64bit-Debug/backup_v1_autogen/include/ui_login.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_2_13_GCC_64bit-Debug/backup_v1_autogen/include/ui_register1.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

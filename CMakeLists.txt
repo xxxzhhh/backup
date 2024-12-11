@@ -27,6 +27,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         login.h login.cpp login.ui
         register1.h register1.cpp register1.ui
         databasemanager.h databasemanager.cpp
+        mainwindow.h mainwindow.cpp mainwindow.ui
 
     )
 # Define target properties for Android with Qt 6 as:

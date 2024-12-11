@@ -256,6 +256,8 @@ backup_v1_autogen/timestamp: \
 	/home/qs/backup_v1/login.cpp \
 	/home/qs/backup_v1/login.h \
 	/home/qs/backup_v1/main.cpp \
+	/home/qs/backup_v1/mainwindow.cpp \
+	/home/qs/backup_v1/mainwindow.h \
 	/home/qs/backup_v1/register1.cpp \
 	/home/qs/backup_v1/register1.h \
 	/usr/include/alloca.h \
@@ -542,5 +544,6 @@ backup_v1_autogen/timestamp: \
 	/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
 	/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
 	/home/qs/backup_v1/login.ui \
+	/home/qs/backup_v1/mainwindow.ui \
 	/home/qs/backup_v1/register1.ui \
 	/home/qs/Qt/Tools/CMake/bin/cmake

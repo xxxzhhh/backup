@@ -4,6 +4,7 @@
 #include <QDialog>
 #include "databasemanager.h"
 #include "register1.h"
+#include "mainwindow.h"
 
 namespace Ui {
 class login;

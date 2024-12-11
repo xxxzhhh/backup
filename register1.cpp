@@ -8,6 +8,8 @@ register1::register1(DatabaseManager *dbManager, QWidget *parent)
     , dbManager(dbManager)
 {
     ui->setupUi(this);
+
+    this->setWindowTitle("backup -- register");
 }
 
 register1::~register1()
